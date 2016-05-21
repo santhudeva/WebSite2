@@ -1,0 +1,80 @@
+﻿body {
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #main {
+    padding: 25px;
+    padding-left:  25px;
+    padding-right: 25px;
+    background-color: #ffffff;
+    
+    border-radius: 0 0 10px 10px;
+}
+ 
+h1 {
+    font-family: Arial, serif;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+font-family:'Times New Roman', Times, serif;
+	clear:both;
+	font-size: 20px,;
+    color:white;
+
+
+   
+}
+h3 {
+    font-family :'Times New Roman';
+    color: white;
+    font-size:25px;
+    float:right;
+    text-align:left;
+
+
+}
+
+#p{
+    font-family:Arial;
+    font-size:15px;
+   
+}
+
+   #bio_right { 
+	font-size: 11px;
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+.location {
+    clear: right;
+    float: right;
+    text-align: justify;
+    width: 50%;
+}
+#bio_left {
+    font-size: 11px;
+    float: left;
+    width: 50%;
+}
+.button {
+    background-color: GrayText;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.time{
+	clear: left;
+	float: left;
+	padding-top: 2px;
+	width: 80%;
+}
