@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url("nature.jpg");
+    background-image: url("IMG_2099.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -7,15 +7,16 @@
     padding: 25px;
     padding-left:  25px;
     padding-right: 25px;
-    background-color: #ffffff;
-    
+    background-color: lightblue;
     border-radius: 0 0 10px 10px;
 }
  
 h1 {
     font-family: Arial, serif;
-    color: white;
+    color: green;
     font-size: 50px;
+    text-align-last:center;
+  
 }
 
 h2 {
@@ -60,21 +61,52 @@ h3 {
     float: left;
     width: 50%;
 }
-.button {
-    background-color: GrayText;
-    border: none;
+
+img{
+    float:right;
+    margin:0px 0px 5px 5px;
+}
+a:link,a:visited
+{
+    background-color: green;
     color: white;
-    padding: 25px 32px;
-    text-align: center;
+    padding: 14px 25px;
+    text-align: right;
     text-decoration: none;
     display: inline-block;
-    font-size: 80px;
-    margin: 10px 5px;
-    cursor: pointer;
+    float:right;
+    border-radius:50px;
 }
-.time{
-	clear: left;
-	float: left;
-	padding-top: 2px;
-	width: 80%;
+a:hover, a:active {
+    background-color: gray;
 }
+
+
+
+ul {
+    list-style-type:none;
+    font-family:Arial;
+    font-size:25px;
+   
+    border-radius:30px;
+  
+    text-decoration-line:underline;
+}
+li{
+float:right;
+    color:blue;
+    text-decoration:underline;
+}
+div
+{
+    width: 100px;
+    height: 100px;
+    background: border-box;
+    transition-duration: 5s;
+    color:red;
+}
+div:hover{
+    width: 150px;
+  
+}
+ 
